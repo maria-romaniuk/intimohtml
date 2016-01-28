@@ -1,0 +1,89 @@
+@import "global";
+
+.headerline {
+  background: $headerline_background;
+
+}
+
+.headerline__logo {
+  float: left;
+  background: white;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 -6px 11px #cfcbbd;
+}
+
+.headerline__logolink {
+  display: block;
+  padding: 11px 13px 16px;
+}
+
+.headerline__logoimg {
+}
+
+.headerline__nav {
+  float: left;
+
+}
+
+.headerline__sriblo {
+  float: left;
+  margin-left: 124px;
+}
+
+.headerline__sribloitem {
+  line-height: 46px;
+  font-size: 1.4em;
+  background: url("../img/backgrhead.png") no-repeat;
+  box-shadow: 2px -2px 8px #c4c0b4;
+
+}
+
+.headerline__sriblolink {
+  display: block;
+  color: #e0001a;
+  padding: 0 15px;
+  transition: color 0.2s linear;
+}
+
+.headerline__sriblolink:hover {
+  color: #7a693b;
+  text-decoration: none;
+}
+
+.headerline__sribloicon {
+  padding-right: 5px;
+}
+
+.headerline__navlist {
+  margin: 0;
+  padding: 0;
+  line-height: 46px;
+}
+
+.headerline__navitem {
+  display: inline-block;
+  font-size: 1.4em;
+  padding: 0 15px;
+}
+
+.headerline__navitem_background {
+  background: url("../img/header__navicon.png") left center no-repeat;
+  padding-left: 20px;
+
+}
+
+.headerline__navlink {
+  display: block;
+  color: #e0001a;
+  transition: color 0.2s linear;
+}
+
+.headerline__navlink:hover {
+  color: #7a693b;
+  text-decoration: none;
+}
+
+.headerline__navicon {
+
+}

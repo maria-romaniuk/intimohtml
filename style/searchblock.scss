@@ -1,0 +1,41 @@
+.searchblock {
+  float: left;
+  width: 50%;
+}
+
+.searchblock__form {
+  background: url("../img/search.png") left top no-repeat;
+  word-spacing: -0.2em;
+}
+
+.searchblock__input {
+  background: url("../img/input__bord12.png") left top no-repeat;
+  width: 429px;
+  height: 22px;
+  padding-left: 23px;
+  font-size: 1.4em;
+  border: none;
+  line-height: 110%;
+  margin-left: 3px;
+  margin-top: 3px;
+
+}
+
+.searchblock__btn {
+  background: url("../img/btn_find.png") left top no-repeat;
+  width: 59px;
+  height: 28px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.searchblock__input:focus {
+  outline-offset: -3px;
+  outline: auto 2px #e43852;
+}
+
+.searchblock__input::-webkit-input-placeholder {
+  color: #e51937;
+}

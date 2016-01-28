@@ -1,0 +1,107 @@
+.product {
+  float: left;
+  width: 136px;
+  margin-left: 34px;
+}
+
+.product_first {
+  padding-left: 0;
+}
+
+.product__imageblock {
+
+}
+
+.product__imagelink {
+  display: block;
+  transition: all .2s linear;
+}
+
+.product__imageblock-img {
+  border: 1px solid #978248;
+}
+
+.product__imagelink:hover {
+  background: white;
+  opacity: 0.5;
+
+}
+
+.product__info {
+  margin-top: 10px;
+}
+
+.product__info-infotitle {
+  display: block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.4em;
+  font-weight: 300;
+  color: #d80019;
+  padding-left: 3px;
+  transition: color 0.1s linear;
+}
+
+.product__info-infotitle:hover {
+  color: #7A693B;
+  text-decoration: none;
+}
+
+.product__iinfocolor {
+  font-size: 1.196em;
+  color: #5b5959;
+  margin: 5px 0;
+}
+
+.product__infocolorname {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  color: #d00018;
+  transition: color .1s linear;
+}
+
+.product__infocolorname:hover {
+  color: #09a418;
+}
+
+.product__infosize {
+  font-size: 1.196em;
+  color: #5b5959;
+  margin: 0 0 10px;
+}
+
+.product__infosizenumber {
+  color: black;
+}
+
+.product__infoprice {
+
+}
+
+.product__infooldprice {
+  font-size: 1.2em;
+  display: block;
+  text-decoration: line-through;
+}
+
+.product__infopricetext {
+  margin: 0;
+}
+
+.product__infosaleprice {
+  font-size: 1.2em;
+}
+
+.product__infosalepricecolor {
+  color: #d00018;
+}
+
+.product__imageblock-infopricebig {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.product__infobtn {
+  margin: 8px 0;
+  display: block;
+
+}

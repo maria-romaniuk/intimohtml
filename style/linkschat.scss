@@ -1,0 +1,35 @@
+.linkschat {
+  float: right;
+  width: 43%;
+}
+
+.linkschat__links {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.linkschat__linkslist {
+  margin: 0;
+  padding: 0;
+}
+
+.linkschat__linksitem {
+  display: inline-block;
+  font-size: 1.4em;
+  padding: 0 20px;
+}
+
+.linkschat__itemlink {
+  color: #535353;
+  transition: color .1s linear;
+}
+
+.linkschat__itemlink:hover {
+  text-decoration: none;
+  color: #e1384c;
+}
+
+.linkschat__chat {
+  display: inline-block;
+  margin-left: 20px;
+}

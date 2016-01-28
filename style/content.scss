@@ -1,0 +1,27 @@
+.content {
+  position: relative;
+}
+
+.content__block {
+  position: relative;
+}
+
+.content__left {
+  position: absolute;
+  left: 3px;
+  bottom: 98px;
+}
+
+.content__right {
+  position: absolute;
+  right: 35px;
+  bottom: 98px;
+}
+
+.content__img {
+  display: block;
+  background: url("../img/hearts.png");
+  width: 42px;
+  height: 117px;
+  opacity: 0.5;
+}

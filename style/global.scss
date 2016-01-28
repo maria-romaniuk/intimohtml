@@ -1,0 +1,19 @@
+$headerline_background: #fffaea;
+$nav_color: linear-gradient(to bottom, rgba(230, 79, 96, 1) 0%, rgba(219, 60, 78, 1) 47%, rgba(210, 44, 63, 1) 100%);
+
+.wrapper {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: MyriadPro-Light;
+  src: url("../fonts/myriadpro-light-webfont.eot");
+  src: url("../fonts/myriadpro-light-webfont.eot#iefix") format("embedded-opentype"),
+  url("../fonts/myriadpro-light-webfont.woff") format("woff"),
+  url("../fonts/myriadpro-light-webfont.ttf") format("truetype"),
+  url("../fonts/myriadpro-light-webfont.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}

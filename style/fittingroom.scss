@@ -1,0 +1,21 @@
+
+.fittingroom {
+  width: 140px;
+  height: 70px;
+  background: url("../img/fittingroom.png") left top no-repeat;
+}
+
+.fittingroom__text {
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 6px 0 0 35px;
+
+}
+
+.fittingroom__link {
+  color: #e1384c;
+}
+
+.fittingroom__link:hover {
+  text-decoration: none;
+}

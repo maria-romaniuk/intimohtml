@@ -1,0 +1,64 @@
+.productactive {
+  padding: 45px 0;
+}
+
+.productactive__title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2.4em;
+  font-weight: 500;
+}
+
+.productactive__main {
+  background: #fff5d4;
+  position: relative;
+  border-radius: 5px;
+}
+
+.productactive__mainblock {
+  padding: 20px;
+
+}
+
+.productactive__mainprintorder {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fee695;
+  border-radius: 0 5px 0 0;
+}
+
+.productactive__mainprintorderlink {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 4px 7px;
+  color: black;
+}
+
+.productactive__mainprintorderlink:hover {
+  text-decoration: underline;
+}
+
+.productactive__mainordertableblock {
+  padding: 20px 0;
+}
+
+.productactive__resume {
+  padding: 20px;
+  background: #fee695;
+  border-radius: 0 0 5px 5px;
+}
+
+.productactive__mainorderrow {
+  margin: 0 66px 0 89px;
+}
+
+.productactive__mainorderrowtitle {
+  font-size: 1.8em;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.productactive__mainorderrow-cols {
+
+}

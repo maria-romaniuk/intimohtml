@@ -1,0 +1,102 @@
+@import "global";
+
+.navigation {
+
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  display: table-caption;
+  font-size: 1.4em;
+}
+
+.navigation__listitem {
+  display: table-cell;
+  background: rgb(230, 79, 96);
+  background: -moz- $nav_color;
+  background: -webkit- $nav_color;
+  background: $nav_color;
+  border-left: 1px solid #eb5e6e;
+  border-right: 1px solid #9f444f;
+}
+
+.navigation__listitem_first {
+  border-left: none;
+  border-radius: 3px 0 0 3px;
+}
+
+.navigation__listitem_sale {
+  border-radius: 0 3px 3px 0;
+  position: relative;
+  border: 1px solid #ef96a0;
+  vertical-align: bottom;
+  border-left: 1px solid #f1f1f1;
+  background: rgb(237, 237, 237); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(224, 224, 224, 1) 47%, rgba(215, 215, 215, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(224, 224, 224, 1) 47%, rgba(215, 215, 215, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(237, 237, 237, 1) 0%, rgba(224, 224, 224, 1) 47%, rgba(215, 215, 215, 1) 100%);
+
+}
+
+.navigation__link {
+  padding: 6px 12px;
+  display: block;
+  height: 48px;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px -1px #ad6c71;
+  transition: all 0.2s linear;
+  box-sizing: border-box;
+}
+
+.navigation__link_sale {
+  color: #db2435;
+  text-shadow: 0 1px white;
+  transition: 0.1s linear;
+  height: 46px;
+}
+
+.navigation__linkimgsale {
+  background: url("../img/salecircle.png") 0 0 no-repeat;
+  width: 51px;
+  height: 23px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.navigation__linksale {
+  position: absolute;
+  bottom: 3px;
+  right: 4px;
+  color: white;
+  font-size: 12px;
+  text-shadow: none;
+}
+
+.navigation__listitem:hover .navigation__link {
+  color: #f3eeef;
+  text-shadow: 1px -1px #8e1818;
+  background: #f98989; /* Old browsers */
+  background: -moz-linear-gradient(top, #f98989 0%, #fc7474 47%, #f93636 100%, #fcbfbf 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f98989 0%, #fc7474 47%, #f93636 100%, #fcbfbf 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f98989 0%, #fc7474 47%, #f93636 100%, #fcbfbf 100%);
+}
+
+.navigation__listitem_sale:hover {
+  border-left: 1px solid #f98989;
+}
+
+.navigation__listitem_sale:hover .navigation__link_sale {
+  text-shadow: 0 1px white;
+  color: #fddce6;
+}
+
+.navigation__listitem_sale:hover .navigation__linkimgsale {
+  background: url("../img/circle_hover.png") 0 0 no-repeat;
+  width: 51px;
+  height: 23px;
+}
+

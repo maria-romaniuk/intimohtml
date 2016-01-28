@@ -1,0 +1,62 @@
+.headercontent {
+  box-shadow: 0 -3px 5px #cfcbbd;
+}
+
+.headercontent__info {
+
+}
+
+.headercontent__logo {
+  float: left;
+  width: 26%;
+}
+
+.headercontent__infocols {
+  float: left;
+  width: 74%;
+  margin: 20px 0;
+}
+
+.headercontent__nav {
+
+}
+
+.headercontent__search {
+  padding: 22px 0 13px 0;
+}
+
+.headercontent__searchlinkbl {
+  float: right;
+  width: 43%;
+}
+
+.headercontent__searchlinkblock {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.headercontent__searchlinkblock-list {
+  margin: 0;
+  padding: 0;
+}
+
+.headercontent__searchlinkblock-item {
+  display: inline-block;
+  font-size: 1.4em;
+  padding: 0 20px;
+}
+
+.headercontent__searchlinkblock-link {
+  color: #535353;
+  transition: color .1s linear;
+}
+
+.headercontent__searchlinkblock-link:hover {
+  text-decoration: none;
+  color: #e1384c;
+}
+
+.headercontent__searchchat {
+  display: inline-block;
+  padding-left: 20px;
+}

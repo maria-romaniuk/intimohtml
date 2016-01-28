@@ -1,0 +1,18 @@
+.onlinechat {
+  &__img {
+    background: url("../img/chat.png") 50% 50% no-repeat;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #c5c5c5;
+
+  }
+  &__text {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 8px;
+    vertical-align: middle;
+    line-height: 100%;
+  }
+}
