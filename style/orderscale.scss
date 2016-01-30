@@ -1,86 +1,75 @@
 .orderscale {
   position: relative;
-  height: 97px;
-}
+  height: 100px;
 
-.orderscale__listinfo {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  letter-spacing: -1em;
-}
+  &__listinfo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1em;
+  }
+  &__itemonfo {
+    display: inline-block;
+    font-size: 13px;
+    color: #666666;
+    width: 140px;
+    letter-spacing: 0;
+    word-spacing: -0.02em;
+    &_colorgreen {
+      color: #336600;
+    }
+    &_sizeprelast {
+      width: 104px;
+    }
+    &_size {
+      width: 45px;
+      vertical-align: super;
+    }
+  }
+  &__listborder {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1em;
+  }
+  &__itemborder {
+    display: inline-block;
+    height: 48px;
+    width: 139.6px;
+    border-left: 1px solid #c8c3b2;
+    &_last {
+      border-right: 1px solid #c8c3b2;
+    }
+  }
+  &__background {
+    width: 563px;
+    height: 20px;
+    background: #595959;
+    position: absolute;
+    top: 50px;
+  }
+  &__backgroundline {
+    background: url("../img/scaleline.png") left repeat-x;
+    height: 20px;
+    border-radius: 0 2px 2px 0;
+  }
+  &__listdate {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -1em;
+    position: absolute;
+    top: 72px;
+  }
+  &__itemdate {
+    display: inline-block;
+    font-size: 11px;
+    color: #336600;
+    width: 140px;
+    letter-spacing: -0.02em;
+    word-spacing: -0.06em;
+    padding-left: 6px;
+    box-sizing: border-box;
+  }
 
-.orderscale__itemonfo {
-  display: inline-block;
-  font-size: 13px;
-  color: #666666;
-  width: 140px;
-  letter-spacing: -0.03em;
-  word-spacing: -0.02em;
-}
-
-.orderscale__itemonfo__colorgreen {
-  color: #336600;
-
-}
-
-.orderscale__itemonfo_sizeprelast {
-  width: 104px;
-}
-
-.orderscale__itemonfo_size {
-  width: 45px;
-}
-
-.orderscale__listborder {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  letter-spacing: -1em;
-}
-
-.orderscale__itemborder {
-  display: inline-block;
-  height: 42px;
-  width: 139.5px;
-  border-left: 1px solid #c8c3b2;
-
-}
-
-.orderscale__itemborder_last {
-  border-right: 1px solid #c8c3b2;
-}
-
-.orderscale__background {
-  width: 563px;
-  height: 20px;
-  background: #595959;
-  position: absolute;
-  top: 43px;
-}
-
-.orderscale__backgroundline {
-  background: url("../img/scaleline.png") left repeat-x;
-  height: 20px;
-  border-radius: 0 2px 2px 0;
-}
-
-.orderscale__listdate {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  letter-spacing: -1em;
-  position: absolute;
-  top: 67px;
-}
-
-.orderscale__itemdate {
-  display: inline-block;
-  font-size: 11px;
-  color: #336600;
-  width: 140px;
-  letter-spacing: -0.02em;
-  word-spacing: -0.06em;
-  padding-left: 6px;
-  box-sizing: border-box;
 }

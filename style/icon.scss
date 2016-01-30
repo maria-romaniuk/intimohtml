@@ -1,32 +1,28 @@
 .icon {
   display: inline-block;
 
-}
+  &_esriblo {
+    background: url("../img/header__navicon.png") left no-repeat;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+  }
+  &_change {
+    background: url("../img/return.png") center no-repeat;
+    width: 32px;
+    height: 19px;
+  }
+  &_delivery {
+    background: url("../img/delivery.png") no-repeat;
+    width: 28px;
+    height: 20px;
+  }
+  &_comment {
+    background: url("../img/comment_icon.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    padding-right: 6px;
 
-.icon_esriblo {
-  background: url("../img/header__navicon.png") left no-repeat;
-  width: 18px;
-  height: 18px;
-  vertical-align: middle;
-}
-
-.icon_change {
-  background: url("../img/return.png") center no-repeat;
-  width: 32px;
-  height: 19px;
-}
-
-.icon_delivery {
-  background: url("../img/delivery.png") no-repeat;
-  width: 28px;
-  height: 20px;
-}
-
-.icon_comment {
-  background: url("../img/comment_icon.png") no-repeat;
-  width: 16px;
-  height: 16px;
-  vertical-align: bottom;
-  padding-right: 6px;
-
+  }
 }

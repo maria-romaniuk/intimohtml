@@ -1,9 +1,8 @@
 .breadcrumbs {
-  .__link {
+  &__link {
     font-size: 1.2em;
     color: #696868;
     text-decoration: none;
-
     &:hover {
       text-decoration: underline;
     }

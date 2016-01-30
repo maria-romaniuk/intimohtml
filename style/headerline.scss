@@ -1,89 +1,84 @@
-@import "global";
-
 .headerline {
   background: $headerline_background;
 
-}
+  &__logo {
+    float: left;
+    background: white;
+    position: absolute;
+    top: 0;
+    box-shadow: 0 -6px 11px #cfcbbd;
+  }
+  &__logolink {
+    display: block;
+    padding: 11px 13px 16px;
+  }
 
-.headerline__logo {
-  float: left;
-  background: white;
-  position: absolute;
-  top: 0;
-  box-shadow: 0 -6px 11px #cfcbbd;
-}
+  &__nav {
+    float: left;
+  }
 
-.headerline__logolink {
-  display: block;
-  padding: 11px 13px 16px;
-}
+  &__navlist {
+    margin: 0;
+    padding: 0;
+    line-height: 46px;
+  }
 
-.headerline__logoimg {
-}
+  &__navitem {
+    display: inline-block;
+    font-size: 1.4em;
+    padding: 0 15px;
+    &_first {
+      padding-left: 33px;
+    }
+  }
 
-.headerline__nav {
-  float: left;
+  &__sriblo {
+    float: left;
+    margin-left: 124px;
 
-}
+  }
 
-.headerline__sriblo {
-  float: left;
-  margin-left: 124px;
-}
+  &__sribloitem {
+    line-height: 46px;
+    font-size: 1.4em;
+    background: url("../img/backgrhead.png") no-repeat;
+    box-shadow: 2px -2px 8px #c4c0b4;
+  }
 
-.headerline__sribloitem {
-  line-height: 46px;
-  font-size: 1.4em;
-  background: url("../img/backgrhead.png") no-repeat;
-  box-shadow: 2px -2px 8px #c4c0b4;
+  &__sriblolink {
+    display: block;
+    color: $color_link;
+    padding: 0 15px;
+    transition: color 0.2s linear;
 
-}
+    &:hover {
+      color: $color_linkhover;
+      text-decoration: none;
+    }
+  }
 
-.headerline__sriblolink {
-  display: block;
-  color: #e0001a;
-  padding: 0 15px;
-  transition: color 0.2s linear;
-}
+  &__sribloicon {
+    padding-right: 5px;
+  }
 
-.headerline__sriblolink:hover {
-  color: #7a693b;
-  text-decoration: none;
-}
+  &__navitem {
 
-.headerline__sribloicon {
-  padding-right: 5px;
-}
+    &_background {
+      background: url("../img/header__navicon.png") left center no-repeat;
+      padding-left: 20px;
+    }
+  }
 
-.headerline__navlist {
-  margin: 0;
-  padding: 0;
-  line-height: 46px;
-}
+  &__navlink {
+    display: block;
+    color: $color_link;
+    transition: color 0.2s linear;
 
-.headerline__navitem {
-  display: inline-block;
-  font-size: 1.4em;
-  padding: 0 15px;
-}
-
-.headerline__navitem_background {
-  background: url("../img/header__navicon.png") left center no-repeat;
-  padding-left: 20px;
-
-}
-
-.headerline__navlink {
-  display: block;
-  color: #e0001a;
-  transition: color 0.2s linear;
-}
-
-.headerline__navlink:hover {
-  color: #7a693b;
-  text-decoration: none;
-}
-
-.headerline__navicon {
+    &:hover {
+      color: $color_linkhover;
+      text-decoration: none;
+    }
+  }
 
 }
+

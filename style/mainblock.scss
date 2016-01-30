@@ -1,85 +1,73 @@
 .mainblock {
   border-bottom: 1px dotted #6a6a6a;
-}
 
-.mainblock__numberorder-scale {
-  float: left;
-  width: 58%;
-}
+  &__numberorder-scale {
+    float: left;
+    width: 61%;
+  }
+  &__numberorder-title{
+    padding: 6px;
+  }
+  &__numberorder-titlenumber {
+    display: inline-block;
+    font-size: 1.8em;
+  }
+  &__numberorder-titlestatus {
+    display: inline-block;
+    font-size: 1.8em;
+    margin-left: 36px;
+  }
+  &__numberorder-titlestatusname {
+    color: #ff7e00;
+  }
+  &__numberorder-titlenumbersamll {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #5b5959;
+  }
+  &__numberorderscale {
+    margin:  8px 0 17px 7px;
+  }
+  &__numberorder-payorder {
+    float: right;
+    width: 39%;
+    margin: 28px 0 0;
+  }
 
-.mainblock__numberorder-title {
+  &__numberorder-payorderaddress {
+    width: 164px;
+    float: left;
+    font-size: 1.3em;
+    margin-left: 13px;
+    letter-spacing: 0;
+  }
+  &__numberorder-payorderaddressstyle {
+    color: #5b5959;
+  }
 
-}
+  &__numberorder-payorderpay {
+    font-size: 1.3em;
+    width: 168px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 8px;
+  }
+  &__numberorder-payorderpaytext {
+    padding-left: 10px;
+    letter-spacing: 0;
+    line-height: 110%;
+    padding-bottom: 5px;
+  }
+  &__numberorder-payorderpaybtn {
+    background: #fee695;
+    padding: 6px 10px 10px;
+  }
 
-.mainblock__numberorder-titlenumber {
-  display: inline-block;
-  font-size: 1.8em;
-}
+  &__numberorder-payorderpaybtnblock {
+    display: inline-block;
+    padding-top: 7px;
+    text-align: center;
+  }
 
-.mainblock__numberorder-titlestatus {
-  display: inline-block;
-  font-size: 1.8em;
-  margin-left: 40px;
-}
-
-.mainblock__numberorder-titlestatusname {
-  color: #ff7e00;
-}
-
-.mainblock__numberorder-titlenumbersamll {
-  display: block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
-}
-
-.mainblock__numberorderscale {
-  margin: 20px 0;
-}
-
-.mainblock__numberorder-payorder {
-  float: right;
-  width: 41%;
-  margin: 31px 0 0;
-}
-
-.mainblock__numberorder-payorderaddress {
-  width: 180px;
-  float: left;
-  font-size: 1.3em;
-  margin-right: 15px;
-  letter-spacing: -0.04em;
-}
-
-.mainblock__numberorder-payorderaddressstyle {
-  color: #5b5959;
-}
-
-.mainblock__numberorder-payorderpay {
-  font-size: 1.3em;
-  width: 168px;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.mainblock__numberorder-payorderpaytext {
-  padding-left: 10px;
-  letter-spacing: -0.04em;
-  line-height: 110%;
-  padding-bottom: 5px;
-}
-
-.mainblock__numberorder-payorderpaybtn {
-  background: #fee695;
-  padding: 10px;
-}
-
-.mainblock__numberorder-payorderpaybtnprice {
-  letter-spacing: -0.04em;
-  word-spacing: -0.04em;
-}
-
-.mainblock__numberorder-payorderpaybtnblock {
-  display: inline-block;
-  padding-top: 7px;
-  text-align: center;
 }

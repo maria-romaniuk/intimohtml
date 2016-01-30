@@ -1,62 +1,51 @@
 .salescale {
   position: relative;
-  padding: 0 31px;
+  padding: 0 24px;
   width: 337px;
   height: 40px;
-}
 
-.salescale__background {
-  background: #595959;
-  border-radius: 3px;
-  width: 319px;
-  height: 20px;
-}
+  &__background {
+    background: #595959;
+    border-radius: 3px;
+    width: 319px;
+    height: 20px;
+  }
+  &__line {
+    background: url("../img/salescale_green.png") left repeat-x;
+    height: 20px;
+    border-radius: 3px;
 
-.salescale__line {
-  background: url("../img/salescale_green.png") left repeat-x;
-  height: 20px;
-  border-radius: 3px;
-
-}
-
-.salescale__listline {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-}
-
-.salescale__itemline {
-  display: inline-block;
-  height: 28px;
-  border-right: 1px solid #c8c3b2;
-  width: 72px;
-}
-
-.salescale__itemline_first {
-  width: 6px;
-}
-
-.salescale__itemline_last {
-
-}
-
-.salescale__listnumber {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 30px;
-}
-
-.salescale__itemnumber {
-  color: #74736f;
-  font-size: 12px;
-  display: inline-block;
-  width: 73px;
-}
-
-.salescale__itemnumber_last {
-  width: 26px;
+  }
+  &__listline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+  }
+  &__itemline {
+    display: inline-block;
+    height: 28px;
+    border-right: 1px solid #c8c3b2;
+    width: 72px;
+    &_first {
+      width: 6px;
+    }
+  }
+  &__listnumber {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+  }
+  &__itemnumber {
+    color: #74736f;
+    font-size: 12px;
+    display: inline-block;
+    width: 73px;
+    &_last {
+      width: 26px;
+    }
+  }
 }

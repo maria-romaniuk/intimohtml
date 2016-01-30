@@ -1,83 +1,71 @@
 .infocol {
 
-}
+  .infocol__btn {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2px 0;
+    width: 78px;
+    background: url("../img/button_grey.png") left top no-repeat;
+    height: 24px;
+    opacity: 0.8;
+    transition: opacity .2s linear;
+    font-size: 1.4em;
+    text-align: center;
+    vertical-align: middle;
+    &:hover {
+      opacity: 1;
 
-.infocol__btn {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 2px 0;
-  width: 78px;
-  background: url("../img/button_grey.png") left top no-repeat;
-  height: 24px;
-  opacity: 0.8;
-  transition: opacity .2s linear;
-}
+    }
+  }
+  &__text {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0 5px;
+  }
+  &__ceic {
+    float: left;
+    margin: 19px 8px 0 3px;
+    &_basket {
+      margin: 10px 0 0;
+    }
+    &_change{
+      margin-left: 15px;
+    }
+  }
+  &__contact {
+    float: left;
+    padding: 0 11px;
+  }
+  &__contactnumber {
+    font-size: 2.4em;
+    font-family: MyriadPro-Light, sans-serif;
+  }
+  &__contactnumberline {
+    display: block;
+  }
 
-.infocol__btn:hover {
-  opacity: 1;
-
-}
-
-.infocol__btn {
-  display: block;
-  font-size: 1.4em;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.infocol__text {
-  font-size: 1.2em;
-  margin: 5px 0;
-  padding: 0 4px;
-}
-
-.infocol__ceic {
-  float: left;
-  margin-right: 20px;
-}
-
-.infocol__contact {
-  float: left;
-  padding: 0 11px;
-}
-
-.infocol__contactnumber {
-  font-size: 2.4em;
-  font-family: MyriadPro-Light, sans-serif;
-}
-
-.infocol__contactnumberline {
-  display: block;
-}
-
-.infocol__ceic_basket {
-  margin-right: 0;
-}
-
-.infocol__basetblock {
-  width: 220px;
-  height: 75px;
-  background: url("../img/basket.png") left no-repeat;
-  position: relative;
-}
-
-.infocol__basketlink {
-  text-decoration: none;
-  display: block;
-  font-size: 1.2em;
-  position: absolute;
-  bottom: 2px;
-  right: 6px;
-  padding: 11px 8px 14px 16px;
-  color: black;
-}
-
-.infocol__basketlink-link {
-  color: #e1384c;
-  text-decoration: underline;
-}
-
-.infocol__basketlink-link:hover {
-  text-decoration: none;
+  &__basetblock {
+    width: 220px;
+    height: 75px;
+    background: url("../img/basket.png") left no-repeat;
+    position: relative;
+  }
+  &__basketlink {
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
+    padding: 11px 8px 14px 16px;
+    color: black;
+  }
+  &__basketlink-link {
+    color: #e1384c;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }

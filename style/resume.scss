@@ -1,62 +1,47 @@
 .resume {
 
-}
+  &__delivery {
+    float: left;
+    width: 47%;
+    margin-right: 18px;
+  }
+  &__text {
+    font-size: 1.3em;
+    margin: 6px 0;
+    line-height: 120%;
+    &_topay{
+      margin: 8px 0;
+    }
+  }
+  &__textstatic {
+    color: #5b5959;
 
-.resume__delivery {
-  float: left;
-  width: 42%;
-  padding-right: 25px;
-}
+  }
+  &__textstaticbold {
+    font-weight: bold;
+    letter-spacing: 0.01em;
+  }
+  &__pay {
+    float: left;
+    margin: 0 29px;
+  }
+  &__total {
+    float: right;
+    margin: 2px 13px 4px 0;
+  }
+  &__totaltable {
+    line-height: 20px;
+  }
+  &__totaltablecol {
+    font-size: 1.3em;
+    padding-right: 24px;
+    letter-spacing: -0.03em;
+    &_title {
+      color: #5b5959;
+    }
+    &_bold {
+      font-weight: bold;
+    }
+  }
 
-.resume__text {
-  font-size: 1.3em;
-  padding: 5px 0;
-  margin: 0;
-  line-height: 120%;
-  word-spacing: -0.02em;
-  letter-spacing: -0.02em;
-}
-
-.resume__textstatic {
-  color: #5b5959;
-}
-
-.resume__textstaticbold {
-  font-weight: bold;
-}
-
-.resume__pay {
-  float: left;
-  padding: 0 30px;
-}
-
-.resume__paybtn {
-
-}
-
-.resume__total {
-  float: right;
-  padding-top: 2px;
-}
-
-.resume__totaltable {
-  line-height: 18px;
-}
-
-.resume__totaltableline {
-
-}
-
-.resume__totaltablecol {
-  font-size: 1.3em;
-  padding-right: 20px;
-  letter-spacing: -0.03em;
-}
-
-.resume__totaltablecol_title {
-  color: #5b5959;
-}
-
-.resume__totaltablecol_bold {
-  font-weight: bold;
 }

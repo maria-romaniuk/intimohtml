@@ -1,308 +1,236 @@
 .personalcabinet {
-
-}
-
-.personalcabinet__title {
-}
-
-.personalcabinet__titletext {
-  font-size: 2.4em;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-weight: 300;
-  margin: 11px 0;
-}
-
-.personalcabinet__loveclient {
-  color: #ff495e;
-  background: url("../img/loveclient.png") 61px 0 no-repeat;
-  padding: 4px 0 0 0;
-
-}
-
-.personalcabinet__menu {
-  float: left;
-  width: 21%;
-}
-
-.personalcabinet__menuquestion {
-  padding: 30px 0;
-
-}
-
-.personalcabinet__menuquestiontext {
-  font-size: 1.4em;
-  margin: 12px 0;
-  padding-left: 7px;
-}
-
-.personalcabinet__menuquestionnumbers {
-  background: url("../img/phoneapp.png") left center no-repeat;
-  display: inline-block;
-  margin-left: 7px;
-}
-
-.personalcabinet__menuquestionchat {
-  padding: 10px 0;
-}
-
-.personalcabinet__menuquestionnum {
-  font-size: 1.4em;
-  display: inline-block;
-  padding-left: 18px;
-  line-height: 110%;
-
-}
-
-.personalcabinet__data {
-  background: #fff5d4;
-  float: left;
-  width: 79%;
-}
-
-.personalcabinet__personalblock {
-  float: left;
-  width: 47%;
-  margin: 20px 0 20px 19px;
-}
-
-.personalcabinet__client {
-  background: white;
-  box-shadow: 2px 2px 5px #e5dcbe;
-  padding: 20px;
-
-}
-
-.personalcabinet__clientname {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  display: inline-block;
-  font-size: 2.4em;
-  font-weight: 300;
-  margin: 0 0 17px 0;
-}
-
-.personalcabinet__redact {
-  display: inline-block;
-  text-decoration: none;
-  color: #d6414d;
-  font-size: 1em;
-  border-bottom: 1px dotted;
-}
-
-.personalcabinet__redact:hover {
-  border-bottom: none;
-}
-
-.personalcabinet__clientcontact {
-  font-size: 1.8em;
-}
-
-.personalcabinet__clientphone {
-  display: block;
-}
-
-.personalcabinet__clientemail {
-  display: block;
-}
-
-.personalcabinet__clientadress {
-  font-size: 1.4em;
-  padding-top: 62px;
-}
-
-.personalcabinet__forclient {
-  margin: 25px 0 20px;
-}
-
-.personalcabinet__forclienttitle {
-  font-size: 1.4em;
-  padding: 0 10px;
-}
-
-.personalcabinet__forclientlist {
-  list-style: none;
-  font-size: 1.2em;
-  margin: 8px 0;
-  padding: 0;
-}
-
-.personalcabinet__forclientitem {
-  line-height: 33px;
-  border: 1px solid #cacaca;
-
-}
-
-.personalcabinet__forclientitem_top {
-  border-radius: 3px 3px 0 0;
-}
-
-.personalcabinet__forclientitem_bottom {
-  border-radius: 0 0 3px 3px;
-  border-top: none;
-}
-
-.personalcabinet__forclientlink {
-  text-decoration: none;
-  color: black;
-
-}
-
-.personalcabinet__forclientlink:hover {
-  text-decoration: none;
-}
-
-.personalcabinet__forclientlinktext {
-  vertical-align: super;
-}
-
-.personalcabinet__forclientlink_color {
-  color: #e0001a;
-  text-decoration: underline;
-}
-
-.personalcabinet__forclientlinkakcent {
-  color: #e0001a;
-  text-decoration: underline;
-}
-
-.personalcabinet__forclientlinkakcent:hover {
-  text-decoration: none;
-}
-
-.personalcabinet__forclienticon {
-  display: inline-block;
-  line-height: 0;
-  padding: 7px 16px 6px 20px;
-}
-
-.personalcabinet__present {
-  background: #fee695;
-  position: relative;
-  padding: 18px 18px 18px 20px;
-}
-
-.personalcabinet__presenticon {
-  text-decoration: none;
-  font-size: 1.4em;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  text-align: center;
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #ff8686;
-}
-
-.personalcabinet__presenticon:hover {
-  background: #ff8686;
-  color: white;
-}
-
-.personalcabinet__presenttitle {
-  font-size: 1.8em;
-  font-weight: 300;
-  margin: 0;
-}
-
-.personalcabinet__presentform {
-  font-size: 1.4em;
-  padding: 10px 0;
-}
-
-.personalcabinet__presentday {
-
-}
-
-.personalcabinet__presentmonth {
-
-}
-
-.personalcabinet__presentyear {
-
-}
-
-.personalcabinet__presenttext {
-  font-size: 1.2em;
-}
-
-.personalcabinet__saleblock {
-  float: right;
-  width: 48%;
-  padding: 10px;
-}
-
-.personalcabinet__product {
-  padding: 20px 20px 21px 24px;
-  background: #fee695;
-  margin: 10px 10px 20px;
-}
-
-.personalcabinet__productblock {
-}
-
-.personalcabinet__productinfo {
-  float: left;
-}
-
-.personalcabinet__producttitle {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 2.4em;
-  font-weight: 300;
-  margin: 0;
-}
-
-.personalcabinet__producttext {
-  font-size: 1.4em;
-}
-
-.personalcabinet__producttextlink {
-  color: #ff0000;
-}
-
-.personalcabinet__producttextlink:hover {
-  text-decoration: none;
-}
-
-.personalcabinet__productbtn {
-  float: right;
-}
-
-.personalcabinet__btn {
-  background: url("../img/btn_green.png") left top no-repeat;
-  width: 115px;
-  height: 34px;
-  color: white;
-  text-shadow: 0 -1px 1px #134b06;
-  font-size: 16px;
-  transition: transform .1s linear;
-}
-
-.personalcabinet__btn:hover {
-  transform: scale(.95);
-}
-
-.personalcabinet__salescale {
-
-}
-
-.personalcabinet__salescaleblock {
-
-}
-
-.personalcabinet__salescaletitle {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 2.4em;
-  font-weight: 300;
-  text-align: center;
-}
-
-.personalcabinet__salescale-scale {
-
-}
-
-.personalcabinet__salescaleinfo {
-  font-size: 1.4em;
-  padding: 18px 0;
-  display: block;
-  text-align: center;
+  margin-top: 14px;
+
+  &__titletext {
+    font-size: 2.4em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 11px 0 16px;
+  }
+  &__loveclient {
+    color: #ff495e;
+    background: url("../img/loveclient.png") 61px 0 no-repeat;
+    padding: 4px 0 0 0;
+  }
+  &__menu {
+    float: left;
+    width: 21%;
+  }
+  &__menuquestion {
+    margin: 50px 0 0 7px;
+  }
+  &__menuquestiontext {
+    font-size: 1.4em;
+    margin: 7px 0 7px 5px;
+
+  }
+  &__menuquestionnumbers {
+    background: url("../img/phoneapp.png") left center no-repeat;
+    display: inline-block;
+    margin-left: 7px;
+  }
+  &__menuquestionchat {
+    padding: 10px 0;
+  }
+  &__menuquestionnum {
+    font-size: 1.4em;
+    display: inline-block;
+    padding-left: 18px;
+    line-height: 110%;
+  }
+  &__data {
+    background: #fff5d4;
+    float: left;
+    width: 79%;
+  }
+  &__personalblock {
+    float: left;
+    width: 46%;
+    margin: 20px 0 20px 17px;
+  }
+  &__client {
+    background: white;
+    box-shadow: 2px 2px 5px #e5dcbe;
+    padding: 15px 13px;
+
+  }
+  &__clientname {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 0 0 11px 6px;
+  }
+  &__redact {
+    display: inline-block;
+    text-decoration: none;
+    color: #d6414d;
+    font-size: 1em;
+    border-bottom: 1px dotted;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  &__clientcontact {
+    font-size: 1.8em;
+    margin-left: 7px;
+    line-height: 1.4em;
+  }
+  &__clientphone {
+    display: block;
+  }
+  &__clientemail {
+    display: block;
+  }
+  &__clientadress {
+    font-size: 1.4em;
+    margin-top: 56px;
+    margin-left: 7px;
+  }
+  &__forclient {
+    margin: 24px 1px 20px;
+  }
+  &__forclienttitle {
+    font-size: 1.4em;
+    margin: 0 18px;
+  }
+  &__forclientlist {
+    list-style: none;
+    font-size: 1.2em;
+    margin: 8px 0;
+    padding: 0;
+  }
+  &__forclientitem {
+    line-height: 20px;
+    border: 1px solid #cacaca;
+
+  }
+  &__forclientitem_top {
+    border-radius: 3px 3px 0 0;
+  }
+  &__forclientitem_bottom {
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+  }
+  &__forclientlink {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__forclientlinktext {
+    vertical-align: super;
+  }
+  &__forclientlink_color {
+    color: #e0001a;
+    text-decoration: underline;
+  }
+  &__forclientlinkakcent {
+    color: #e0001a;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__forclienticon {
+    display: inline-block;
+    line-height: 0;
+    padding: 7px 9px 6px 20px;
+  }
+  &__present {
+    background: #fee695;
+    position: relative;
+    padding: 13px 12px 15px 20px;
+  }
+  &__presenticon {
+    text-decoration: none;
+    font-size: 1.4em;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff8686;
+    &:hover {
+      background: #ff8686;
+      color: white;
+    }
+  }
+  &__presenttitle {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 0;
+  }
+  &__presentform {
+    font-size: 1.4em;
+    padding: 8px 0;
+  }
+  &__presenttext {
+    font-size: 1.2em;
+  }
+  &__saleblock {
+    float: right;
+    width: 51%;
+    padding: 10px 0;
+  }
+  &__product {
+    background: #fee695;
+    width: 90%;
+    margin: 12px;
+    &_second{
+      margin-top: 20px;
+    }
+  }
+  &__productblock{
+    padding: 15px 17px;
+  }
+  &__productinfo {
+    float: left;
+  }
+  &__producttitle {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 0;
+  }
+  &__producttext {
+    font-size: 1.4em;
+  }
+  &__producttextlink {
+    color: #ff0000;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__productbtn {
+    float: right;
+    margin-top: 4px;
+  }
+  &__btn {
+    background: url("../img/btn_green.png") left top no-repeat;
+    width: 115px;
+    height: 34px;
+    color: white;
+    text-shadow: 0 -1px 1px #134b06;
+    font-size: 16px;
+    transition: transform .1s linear;
+    &:hover {
+      transform: scale(.95);
+    }
+  }
+  &__salescaletitle {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 15px 73px;
+  }
+  &__salescaleinfo {
+    font-size: 1.4em;
+    padding: 18px 0;
+    display: block;
+    text-align: center;
+  }
 }

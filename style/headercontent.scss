@@ -1,62 +1,52 @@
 .headercontent {
   box-shadow: 0 -3px 5px #cfcbbd;
-}
 
-.headercontent__info {
+      &__logo {
+        float: left;
+        width: 22%;
+      }
 
-}
+      &__infocols {
+        float: left;
+        width: 78%;
+        margin: 5px 0 13px;
+      }
 
-.headercontent__logo {
-  float: left;
-  width: 26%;
-}
+      &__search {
+        padding: 22px 0 13px 0;
+      }
 
-.headercontent__infocols {
-  float: left;
-  width: 74%;
-  margin: 20px 0;
-}
+      &__searchlinkbl {
+        float: right;
+        width: 43%;
+      }
 
-.headercontent__nav {
+      &__searchlinkblock {
+        display: inline-block;
+        padding-right: 30px;
+      }
+      &__searchlinkblock-list {
+        margin: 0;
+        padding: 0;
+      }
+      &__searchlinkblock-item {
+        display: inline-block;
+        font-size: 1.4em;
+        padding: 0 20px;
+      }
 
-}
+      &__searchlinkblock-link {
+        color: #535353;
+        transition: color .1s linear;
 
-.headercontent__search {
-  padding: 22px 0 13px 0;
-}
+        &:hover {
+          text-decoration: none;
+          color: #e1384c;
+        }
+      }
 
-.headercontent__searchlinkbl {
-  float: right;
-  width: 43%;
-}
-
-.headercontent__searchlinkblock {
-  display: inline-block;
-  padding-right: 30px;
-}
-
-.headercontent__searchlinkblock-list {
-  margin: 0;
-  padding: 0;
-}
-
-.headercontent__searchlinkblock-item {
-  display: inline-block;
-  font-size: 1.4em;
-  padding: 0 20px;
-}
-
-.headercontent__searchlinkblock-link {
-  color: #535353;
-  transition: color .1s linear;
-}
-
-.headercontent__searchlinkblock-link:hover {
-  text-decoration: none;
-  color: #e1384c;
-}
-
-.headercontent__searchchat {
-  display: inline-block;
-  padding-left: 20px;
+      &__searchchat {
+        display: inline-block;
+        padding-left: 20px;
+      }
 }

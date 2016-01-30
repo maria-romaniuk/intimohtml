@@ -1,145 +1,111 @@
 .madeorder {
+  margin-bottom: 20px;
 
-}
+  &__title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 7px 0 0;
+  }
 
-.madeorder__title {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 2.4em;
-  font-weight: 300;
-  margin: 0;
-}
+  &__tableblock {
+    padding: 23px 24px 30px 20px;
+  }
 
-.madeorder__tableblock {
-  padding: 30px 24px 30px 20px;
-}
+  &__tablehead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.197em;
+    font-style: oblique;
+    font-weight: 300;
+    color: #827e7e;
+    text-align: left;
+    padding: 0 27px 5px 5px;
+    &_first {
+      padding-left: 0;
+    }
+  }
+  &__tablecol {
+    font-size: 1.4em;
+    padding: 0 33px 6px 4px;
+    &_color {
+    padding-right: 20px;
+    padding-left: 0;
+    }
 
-.madeorder__table {
-}
-
-.madeorder__tableline {
-
-}
-
-.madeorder__tablehead {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.197em;
-  font-style: oblique;
-  font-weight: 300;
-  color: #827e7e;
-  text-align: left;
-  padding: 0 25px 13px;
-}
-
-.madeorder__tablehead_first {
-  padding-left: 0;
-}
-
-.madeorder__tablehead_empty {
-
-}
-
-.madeorder__tablecol {
-  font-size: 1.4em;
-  padding: 0 23px 10px;
-}
-
-.madeorder__tablecol_color {
-  padding-right: 20px;
-  padding-left: 0;
-}
-
-.madeorder__tablecollinknumder {
+    &_bold {
+      font-weight: bold;
+    }
+    &_last {
+      padding-right: 0;
+    }
+  }
+  &__tablecollinknumder {
   font-size: 1.286em;
   text-decoration: none;
   border-bottom: 1px dotted;
   color: #ff7888;
   transition: color .1s linear;
-}
+    &:hover {
+      color: #278208;
+    }
+  }
+  &__tablecolfinished {
+    color: #278208;
+  }
 
-.madeorder__tablecollinknumder:hover {
-  color: #278208;
-}
+  &__tablecollink {
+    font-size: 0.857em;
+    color: #ff7888;
+    letter-spacing: -0.01em;
+    transition: color .1s linear;
+    &:hover {
+      text-decoration: none;
+      color: #7a693b;
+    }
+  }
+  &__info {
+    background: #fee695;
+  }
+  &__infoblock {
+    border-top: 1px solid #e5d291;
+    padding: 15px 21px;
+  }
 
-.madeorder__tablecolfinished {
-  color: #278208;
-}
+  &__statistics {
+    float: left;
+    width: 30%;
+  }
+  &__statisticstable {
+    font-size: 1.3em;
+    line-height: 20px;
+  }
+  &__statisticstablecol {
 
-.madeorder__tablecol_bold {
-  font-weight: bold;
-}
+    &_name {
+      padding-right: 23px;
+      color: #5b5959;
+      letter-spacing: 0.01em;
+    }
+  }
 
-.madeorder__tablecol_last {
-  padding-right: 0;
-}
+  &__buys {
+    float: right;
+    width: 61%;
+  }
+  &__buyssale {
+    display: inline-block;
+    line-height: 56px;
+  }
+  &__buyssaletext {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.6em;
+  }
+  &__buyssaletextcolor {
+    color: #ff001d;
+  }
 
-.madeorder__tablecolbtn {
-
-}
-
-.madeorder__tablecollink {
-  font-size: 0.857em;
-  color: #ff7888;
-  letter-spacing: -0.01em;
-  transition: color .1s linear;
-}
-
-.madeorder__tablecollink:hover {
-  text-decoration: none;
-  color: #7a693b;
-}
-
-.madeorder__info {
-  background: #fee695;
-}
-
-.madeorder__infoblock {
-  border-top: 1px solid #e5d291;
-  padding: 20px 22px;
-}
-
-.madeorder__statistics {
-  float: left;
-  width: 30%;
-}
-
-.madeorder__statisticstable {
-  font-size: 1.3em;
-  line-height: 18px;
-}
-
-.madeorder__statisticstableline {
-
-}
-
-.madeorder__statisticstablecol {
-  letter-spacing: -0.06em;
-}
-
-.madeorder__statisticstablecol_name {
-  padding-right: 25px;
-  color: #5b5959;
-}
-
-.madeorder__buys {
-  float: right;
-  width: 61%;
-}
-
-.madeorder__buyssale {
-  display: inline-block;
-  line-height: 50px;
-}
-
-.madeorder__buyssaletext {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 1.6em;
-}
-
-.madeorder__buyssaletextcolor {
-  color: #ff001d;
-}
-
-.madeorder__buysbtn {
-  display: inline-block;
-  padding-left: 25px;
+  &__buysbtn {
+    display: inline-block;
+    margin-left: 17px;
+  }
 }

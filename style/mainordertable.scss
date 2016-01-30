@@ -1,162 +1,135 @@
 .mainordertable {
 
+  &line {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .opacity {
+    opacity: 0.4;
+  }
+  &__head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    border-bottom: 1px solid #535353;
+    font-style: oblique;
+    color: #827e7e;
+    text-align: left;
+    padding: 0 17px 2px;
+    font-weight: 500;
+    &_nopadding {
+      padding-left: 7px;
+    }
+    &_empty {
+      border-bottom: none;
+    }
+    &_status{
+      padding-left: 1px;
+    }
+  }
+
+  &__col {
+    border-bottom: 1px dotted #6a6a6a;
+    padding: 0 18px;
+    &_status{
+      padding-left: 0;
+    }
+    &_nopadding{
+      padding-left: 7px;
+    }
+  }
+  &__picture {
+    border-bottom: none;
+    padding: 0 9px 0 6px;
+
+  }
+  &__colpiclink {
+    display: block;
+    height: 80px;
+  }
+
+  &__colimg {
+    border: 1px solid #bbaa78;
+  }
+  &__collinkname {
+    font-size: 1.4em;
+    color: $color_info;
+    transition: color .2s linear;
+    &:hover {
+      color: #7A693B;
+      text-decoration: none;
+    }
+  }
+  &__collink{
+
+    &_colorcol {
+      font-size: 1.196em;
+      color: $color_info;
+      border-bottom: 1px dotted;
+      text-decoration: none;
+      transition: color .2s linear;
+      &:hover {
+        color: #134b06;
+        border-bottom: none;
+      }
+    }
+  }
+  &__colnumber {
+    font-size: 1.2em;
+    padding: 2px 0;
+  }
+  &__colcode {
+    float: left;
+  }
+  &__colarticle {
+    float: right;
+  }
+  &__colsize {
+    font-size: 1.8em;
+  }
+  &__colstatus {
+    font-size: 1.4em;
+
+    &_colororange {
+      color: #e58900;
+    }
+    &_colorred {
+      color: #ff0000;
+      opacity: 1;
+    }
+    &_colorgreen {
+      color: #339900;
+    }
+  }
+  &__colsale {
+    font-size: 1.8em;
+  }
+  &__colquantity {
+    font-size: 1.8em;
+
+  }
+  &__colprice{
+    line-height: 17px;
+    display: block;
+    padding-left: 3px;
+  }
+  &__cololdprice {
+    font-size: 1.4em;
+    display: block;
+    color: #807d7d;
+    text-decoration: line-through;
+  }
+  &__coltodayprice {
+    display: block;
+    font-size: 2.4em;
+  }
+  &__coltodaypricecoins {
+    font-size: 0.583em;
+  }
+  &__colhowmany {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: block;
+    color: #807d7d;
+    font-style: oblique;
+    vertical-align: sub;
+  }
 }
-
-.mainordertableline {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.mainordertable__line {
-
-}
-
-.opacity {
-  opacity: 0.4;
-}
-
-.mainordertable__head {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  border-bottom: 1px solid #535353;
-  font-style: oblique;
-  color: #827e7e;
-  text-align: left;
-  padding: 0 18px;
-}
-
-.productactive__mainordertablehead_empty {
-  border-bottom: none;
-}
-
-.mainordertable__col {
-  border-bottom: 1px dotted #6a6a6a;
-  padding: 0 18px;
-}
-
-.mainordertable__head_nopadding {
-  padding-left: 10px;
-}
-
-.mainordertable__colblock {
-
-}
-
-.mainordertable__picture {
-  border-bottom: none;
-
-}
-
-.mainordertable__colpiclink {
-  display: block;
-}
-
-.mainordertable__colimg {
-  border: 1px solid #bbaa78;
-}
-
-.mainordertable__collink {
-}
-
-.mainordertable__collinkname {
-  font-size: 1.4em;
-  color: #d00018;
-  transition: color .2s linear;
-}
-
-.mainordertable__collinkname:hover {
-  color: #7A693B;
-  text-decoration: none;
-}
-
-.mainordertable__collink_colorcol {
-  font-size: 1.196em;
-  color: #d00018;
-  border-bottom: 1px dotted;
-  text-decoration: none;
-  transition: color .2s linear;
-}
-
-.mainordertable__collink_colorcol:hover {
-  color: #134b06;
-  border-bottom: none;
-}
-
-.mainordertable__colnumber {
-  font-size: 1.2em;
-  padding: 2px 0;
-}
-
-.mainordertable__colcode {
-  float: left;
-}
-
-.mainordertable__colarticle {
-  float: right;
-}
-
-.mainordertable__colsize {
-  font-size: 1.8em;
-}
-
-.mainordertable__colstatus {
-  font-size: 1.4em;
-}
-
-.mainordertable__colstatus_colororange {
-  color: #e58900;
-}
-
-.mainordertable__colstatus_colorred {
-  color: #ff0000;
-  opacity: 1;
-}
-
-.mainordertable__colstatus_colorgreen {
-  color: #339900;
-}
-
-.mainordertable__colsale {
-  font-size: 1.8em;
-}
-
-.mainordertable__colquantity {
-  font-size: 1.8em;
-
-}
-
-.mainordertable__colprice {
-
-}
-
-.mainordertable__cololdprice {
-  font-size: 1.4em;
-  display: block;
-  color: #807d7d;
-  text-decoration: line-through;
-}
-
-.mainordertable__coltodayprice {
-  display: block;
-  font-size: 2.4em;
-}
-
-.mainordertable__coltodaypricecoins {
-  font-size: 0.583em;
-}
-
-.mainordertable__colhowmany {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  display: block;
-  color: #807d7d;
-  font-style: oblique;
-}
-
-.productactive__mainordertableline {
-
-}
-
-.productactive__mainordertable_picture {
-
-}
-

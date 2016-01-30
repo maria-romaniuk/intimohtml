@@ -1,64 +1,58 @@
 .productactive {
-  padding: 45px 0;
-}
+  margin: 37px 0;
 
-.productactive__title {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 2.4em;
-  font-weight: 500;
-}
+  &__title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
 
-.productactive__main {
-  background: #fff5d4;
-  position: relative;
-  border-radius: 5px;
-}
+  &__main {
+    background: #fff5d4;
+    position: relative;
+    border-radius: 5px;
+  }
 
-.productactive__mainblock {
-  padding: 20px;
+  &__mainblock {
+    padding: 15px 15px 24px;
 
-}
-
-.productactive__mainprintorder {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: #fee695;
-  border-radius: 0 5px 0 0;
-}
-
-.productactive__mainprintorderlink {
-  display: block;
-  text-decoration: none;
-  font-size: 1.2em;
-  padding: 4px 7px;
-  color: black;
-}
-
-.productactive__mainprintorderlink:hover {
-  text-decoration: underline;
-}
-
-.productactive__mainordertableblock {
-  padding: 20px 0;
-}
-
-.productactive__resume {
-  padding: 20px;
-  background: #fee695;
-  border-radius: 0 0 5px 5px;
-}
-
-.productactive__mainorderrow {
-  margin: 0 66px 0 89px;
-}
-
-.productactive__mainorderrowtitle {
-  font-size: 1.8em;
-  font-weight: 500;
-  font-style: oblique;
-}
-
-.productactive__mainorderrow-cols {
+  }
+  &__mainprintorder {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fee695;
+    border-radius: 0 5px 0 0;
+  }
+  &__mainprintorderlink {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 4px 7px;
+    color: black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__mainordertableblock {
+    margin: 17px 0;
+  }
+  &__resume {
+    padding: 13px 20px;
+    background: #fee695;
+    border-radius: 0 0 5px 5px;
+  }
+  &__mainorderrow {
+    margin: 0 45px 0 39px;
+  }
+  &__mainorderrowtitle {
+    font-size: 1.8em;
+    font-weight: 500;
+    font-style: oblique;
+    margin-top: 1px;
+    margin-left: 38px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
 
 }

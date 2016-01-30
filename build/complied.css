@@ -495,12 +495,12 @@ th {
     position: relative; }
   .content__left {
     position: absolute;
-    left: 12px;
-    bottom: 95px; }
+    left: 3px;
+    bottom: 98px; }
   .content__right {
     position: absolute;
-    right: 105px;
-    bottom: 95px; }
+    right: 35px;
+    bottom: 98px; }
   .content__img {
     display: block;
     background: url("../img/hearts.png");
@@ -660,82 +660,81 @@ th {
   font-size: 1.2em;
   color: #a5a5a5; }
 
-.madeorder {
-  margin-bottom: 20px; }
-  .madeorder__title {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 2.4em;
-    font-weight: 300;
-    margin: 7px 0 0; }
-  .madeorder__tableblock {
-    padding: 23px 24px 30px 20px; }
-  .madeorder__tablehead {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.197em;
-    font-style: oblique;
-    font-weight: 300;
-    color: #827e7e;
-    text-align: left;
-    padding: 0 27px 5px 5px; }
-    .madeorder__tablehead_first {
-      padding-left: 0; }
-  .madeorder__tablecol {
-    font-size: 1.4em;
-    padding: 0 33px 6px 4px; }
-    .madeorder__tablecol_color {
-      padding-right: 20px;
-      padding-left: 0; }
-    .madeorder__tablecol_bold {
-      font-weight: bold; }
-    .madeorder__tablecol_last {
-      padding-right: 0; }
-  .madeorder__tablecollinknumder {
-    font-size: 1.286em;
-    text-decoration: none;
-    border-bottom: 1px dotted;
-    color: #ff7888;
-    transition: color .1s linear; }
-    .madeorder__tablecollinknumder:hover {
-      color: #278208; }
-  .madeorder__tablecolfinished {
+.madeorder__title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2.4em;
+  font-weight: 300;
+  margin: 0; }
+.madeorder__tableblock {
+  padding: 30px 24px 30px 20px; }
+.madeorder__tablehead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.197em;
+  font-style: oblique;
+  font-weight: 300;
+  color: #827e7e;
+  text-align: left;
+  padding: 0 25px 13px; }
+  .madeorder__tablehead_first {
+    padding-left: 0; }
+.madeorder__tablecol {
+  font-size: 1.4em;
+  padding: 0 23px 10px; }
+  .madeorder__tablecol_color {
+    padding-right: 20px;
+    padding-left: 0; }
+  .madeorder__tablecol_bold {
+    font-weight: bold; }
+  .madeorder__tablecol_last {
+    padding-right: 0; }
+.madeorder__tablecollinknumder {
+  font-size: 1.286em;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  color: #ff7888;
+  transition: color .1s linear; }
+  .madeorder__tablecollinknumder:hover {
     color: #278208; }
-  .madeorder__tablecollink {
-    font-size: 0.857em;
-    color: #ff7888;
-    letter-spacing: -0.01em;
-    transition: color .1s linear; }
-    .madeorder__tablecollink:hover {
-      text-decoration: none;
-      color: #7a693b; }
-  .madeorder__info {
-    background: #fee695; }
-  .madeorder__infoblock {
-    border-top: 1px solid #e5d291;
-    padding: 15px 21px; }
-  .madeorder__statistics {
-    float: left;
-    width: 30%; }
-  .madeorder__statisticstable {
-    font-size: 1.3em;
-    line-height: 20px; }
+.madeorder__tablecolfinished {
+  color: #278208; }
+.madeorder__tablecollink {
+  font-size: 0.857em;
+  color: #ff7888;
+  letter-spacing: -0.01em;
+  transition: color .1s linear; }
+  .madeorder__tablecollink:hover {
+    text-decoration: none;
+    color: #7a693b; }
+.madeorder__info {
+  background: #fee695; }
+.madeorder__infoblock {
+  border-top: 1px solid #e5d291;
+  padding: 20px 22px; }
+.madeorder__statistics {
+  float: left;
+  width: 30%; }
+.madeorder__statisticstable {
+  font-size: 1.3em;
+  line-height: 18px; }
+.madeorder__statisticstablecol {
+  letter-spacing: -0.06em; }
   .madeorder__statisticstablecol_name {
-    padding-right: 23px;
-    color: #5b5959;
-    letter-spacing: 0.01em; }
-  .madeorder__buys {
-    float: right;
-    width: 61%; }
-  .madeorder__buyssale {
-    display: inline-block;
-    line-height: 56px; }
-  .madeorder__buyssaletext {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 1.6em; }
-  .madeorder__buyssaletextcolor {
-    color: #ff001d; }
-  .madeorder__buysbtn {
-    display: inline-block;
-    margin-left: 17px; }
+    padding-right: 25px;
+    color: #5b5959; }
+.madeorder__buys {
+  float: right;
+  width: 61%; }
+.madeorder__buyssale {
+  display: inline-block;
+  line-height: 50px; }
+.madeorder__buyssaletext {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.6em; }
+.madeorder__buyssaletextcolor {
+  color: #ff001d; }
+.madeorder__buysbtn {
+  display: inline-block;
+  padding-left: 25px; }
 
 .mainordertableline {
   font-family: Arial, Helvetica, sans-serif; }
@@ -754,15 +753,13 @@ th {
     padding-left: 7px; }
   .mainordertable__head_empty {
     border-bottom: none; }
-  .mainordertable__head_status {
-    padding-left: 1px; }
+  .mainordertable__head-status {
+    padding-left: 4px; }
 .mainordertable__col {
   border-bottom: 1px dotted #6a6a6a;
-  padding: 0 18px; }
-  .mainordertable__col_status {
-    padding-left: 0; }
-  .mainordertable__col_nopadding {
-    padding-left: 7px; }
+  padding: 0 15px; }
+  .mainordertable__col__status {
+    padding-left: 4px; }
 .mainordertable__picture {
   border-bottom: none;
   padding: 0 9px 0 6px; }
@@ -809,10 +806,6 @@ th {
   font-size: 1.8em; }
 .mainordertable__colquantity {
   font-size: 1.8em; }
-.mainordertable__colprice {
-  line-height: 17px;
-  display: block;
-  padding-left: 3px; }
 .mainordertable__cololdprice {
   font-size: 1.4em;
   display: block;
@@ -828,8 +821,7 @@ th {
   font-size: 1.2em;
   display: block;
   color: #807d7d;
-  font-style: oblique;
-  vertical-align: sub; }
+  font-style: oblique; }
 
 .onlinechat__img {
   background: url("../img/chat.png") 50% 50% no-repeat;
@@ -1029,7 +1021,7 @@ th {
 .product {
   float: left;
   width: 136px;
-  margin-left: 35px; }
+  margin-left: 34px; }
   .product_first {
     padding-left: 0; }
   .product__imagelink {
@@ -1041,24 +1033,22 @@ th {
   .product__imageblock-img {
     border: 1px solid #978248; }
   .product__info {
-    margin-top: 4px; }
-  .product__infoname {
-    padding-left: 5px; }
+    margin-top: 10px; }
   .product__info-infotitle {
     display: block;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1.4em;
     font-weight: 300;
     color: #d80019;
-    transition: color 0.1s linear;
-    line-height: 17px; }
+    padding-left: 3px;
+    transition: color 0.1s linear; }
     .product__info-infotitle:hover {
       color: #7A693B;
       text-decoration: none; }
   .product__iinfocolor {
     font-size: 1.196em;
     color: #5b5959;
-    margin: 7px 0 5px; }
+    margin: 5px 0; }
   .product__infocolorname {
     text-decoration: none;
     border-bottom: 1px dotted;
@@ -1069,11 +1059,9 @@ th {
   .product__infosize {
     font-size: 1.196em;
     color: #5b5959;
-    margin: 0 0 4px; }
+    margin: 0 0 10px; }
   .product__infosizenumber {
     color: black; }
-  .product__infoprice {
-    padding-left: 5px; }
   .product__infooldprice {
     font-size: 1.2em;
     display: block;
@@ -1103,7 +1091,7 @@ th {
     position: relative;
     border-radius: 5px; }
   .productactive__mainblock {
-    padding: 15px 15px 24px; }
+    padding: 15px; }
   .productactive__mainprintorder {
     position: absolute;
     right: 0;
@@ -1121,45 +1109,42 @@ th {
   .productactive__mainordertableblock {
     margin: 17px 0; }
   .productactive__resume {
-    padding: 13px 20px;
+    padding: 20px;
     background: #fee695;
     border-radius: 0 0 5px 5px; }
   .productactive__mainorderrow {
-    margin: 0 45px 0 39px; }
+    margin: 0 66px 0 89px; }
   .productactive__mainorderrowtitle {
     font-size: 1.8em;
     font-weight: 500;
-    font-style: oblique;
-    margin-top: 1px;
-    margin-left: 38px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif; }
+    font-style: oblique; }
 
 .resume__delivery {
   float: left;
-  width: 47%;
-  margin-right: 18px; }
+  width: 42%;
+  padding-right: 25px; }
 .resume__text {
   font-size: 1.3em;
-  margin: 6px 0;
-  line-height: 120%; }
-  .resume__text_topay {
-    margin: 8px 0; }
+  padding: 5px 0;
+  margin: 0;
+  line-height: 120%;
+  word-spacing: -0.02em;
+  letter-spacing: -0.02em; }
 .resume__textstatic {
   color: #5b5959; }
 .resume__textstaticbold {
-  font-weight: bold;
-  letter-spacing: 0.01em; }
+  font-weight: bold; }
 .resume__pay {
   float: left;
-  margin: 0 29px; }
+  padding: 0 30px; }
 .resume__total {
   float: right;
-  margin: 2px 13px 4px 0; }
+  padding-top: 2px; }
 .resume__totaltable {
-  line-height: 20px; }
+  line-height: 18px; }
 .resume__totaltablecol {
   font-size: 1.3em;
-  padding-right: 24px;
+  padding-right: 20px;
   letter-spacing: -0.03em; }
   .resume__totaltablecol_title {
     color: #5b5959; }
@@ -1523,4 +1508,4 @@ th {
     padding-top: 7px;
     text-align: center; }
 
-/*# sourceMappingURL=compiled.css.map */
+/*# sourceMappingURL=complied.css.map */

@@ -6,97 +6,90 @@
     outline: none;
   }
   &_onlinechat {
-    width: 178px;
-    height: 28px;
-    border-radius: 3px;
-    padding: 0;
-    text-align: justify;
-    background: url("../img/button_chat.png") left top no-repeat;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition: transform .3s ease-out;
+      width: 178px;
+      height: 28px;
+      border-radius: 3px;
+      padding: 0;
+      text-align: justify;
+      background: url("../img/button_chat.png") left top no-repeat;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition: transform .3s ease-out;
 
-    &:hover,
-    &:focus,
-    &:active {
-      -webkit-transform: translateY(-5px);
-      transform: translateY(-5px);
-    }
+      &:hover,
+      &:focus,
+      &:active {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+      }
   }
 
   &_save {
-    background: url("../img/btn_save.png") left no-repeat;
-    width: 71px;
-    height: 19px;
-    font-size: 10px;
-    float: right;
-    opacity: 0.9;
-    transition: all .1s linear;
+      background: url("../img/btn_save.png") left no-repeat;
+      width: 71px;
+      height: 19px;
+      font-size: 10px;
+      float: right;
+      opacity: 0.9;
+      transition: all .1s linear;
+      &:hover {
+        opacity: 1;
+        transform: scale(1.01);
+      }
   }
-}
-
-.btn_save:hover {
-  opacity: 1;
-  transform: scale(1.01);
-}
-
-.btn_payorder {
-  background: url("../img/btn_green90.png") left no-repeat;
-  width: 147px;
-  height: 34px;
-  color: white;
-  text-shadow: 0 -1px 1px #134b06;
-  font-size: 16px;
-  transition: transform .2s linear;
-}
-
-.btn_payorder:hover {
-  transform: scale(0.96);
-}
-
-.btn_addbasket {
-  background: url("../img/addbasket.png") left no-repeat;
-  width: 137px;
-  height: 28px;
-  font-size: 14px;
-  text-shadow: 0 1px 1px #ffffff;
-  transition: transform .2s linear;
-}
-
-.btn_addbasket:hover {
-  transform: scale(1.02);
-}
-
-.btn_comment {
-  background: url("../img/comment.png") left no-repeat;
-  width: 141px;
-  height: 24px;
-  font-size: 14px;
-  text-shadow: 0 1px 2px #ffffff;
-  letter-spacing: -0.01em;
-  opacity: .8;
-  transition: opacity .2s linear;
-}
-
-.btn_comment:hover {
-  opacity: 1;
-}
-
-.btn_gobuy {
-  background: url("../img/gobuys.png") left no-repeat;
-  width: 122px;
-  height: 29px;
-  font-size: 14.23px;
-  text-shadow: 0 1px 2px #ffffff;
-  letter-spacing: -0.01em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  transition: transform .3s ease-out;
-}
-
-.btn_gobuy:hover, .btn_gobuy:focus, .btn_gobuy:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
+  &_payorder {
+      background: url("../img/btn_green90.png") left no-repeat;
+      width: 147px;
+      height: 34px;
+      color: white;
+      text-shadow: 0 -1px 1px #134b06;
+      font-size: 16px;
+      transition: transform .2s linear;
+      &:hover {
+        transform: scale(0.96);
+      }
+  }
+  &_addbasket {
+      background: url("../img/addbasket.png") left no-repeat;
+      width: 137px;
+      height: 28px;
+      font-size: 14px;
+      text-shadow: 0 1px 1px #ffffff;
+      transition: transform .2s linear;
+      &:hover {
+        transform: scale(1.02);
+      }
+  }
+  &_comment {
+      background: url("../img/comment.png") left no-repeat;
+      width: 141px;
+      height: 24px;
+      font-size: 14px;
+      text-shadow: 0 1px 2px #ffffff;
+      letter-spacing: -0.01em;
+      opacity: .8;
+      transition: opacity .2s linear;
+      &:hover {
+        opacity: 1;
+      }
+  }
+  &_gobuy {
+      background: url("../img/gobuys.png") left no-repeat;
+      width: 122px;
+      height: 29px;
+      font-size: 14.23px;
+      text-shadow: 0 1px 2px #ffffff;
+      letter-spacing: -0.01em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition: transform .3s ease-out;
+      &:hover,
+      &:focus,
+      &:active {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+  }
 }
