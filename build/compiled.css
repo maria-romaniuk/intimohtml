@@ -425,7 +425,7 @@ th {
     border-radius: 3px;
     padding: 0;
     text-align: justify;
-    background: url("../img/button_chat.png") left top no-repeat;
+    background: url("../img/sprites_btn.png") 0 -219px no-repeat;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
@@ -445,7 +445,7 @@ th {
       opacity: 1;
       transform: scale(1.01); }
   .btn_payorder {
-    background: url("../img/btn_green90.png") left no-repeat;
+    background: url("../img/sprites_btn.png") 0 -48px no-repeat;
     width: 147px;
     height: 34px;
     color: white;
@@ -455,7 +455,7 @@ th {
     .btn_payorder:hover {
       transform: scale(0.96); }
   .btn_addbasket {
-    background: url("../img/addbasket.png") left no-repeat;
+    background: url("../img/sprites_btn.png") 0 -96px no-repeat;
     width: 137px;
     height: 28px;
     font-size: 14px;
@@ -464,7 +464,7 @@ th {
     .btn_addbasket:hover {
       transform: scale(1.02); }
   .btn_comment {
-    background: url("../img/comment.png") left no-repeat;
+    background: url("../img/sprites_btn.png") 0 -135px no-repeat;
     width: 141px;
     height: 24px;
     font-size: 14px;
@@ -475,7 +475,7 @@ th {
     .btn_comment:hover {
       opacity: 1; }
   .btn_gobuy {
-    background: url("../img/gobuys.png") left no-repeat;
+    background: url("../img/sprites_btn.png") 0 -176px no-repeat;
     width: 122px;
     height: 29px;
     font-size: 14.23px;
@@ -1006,7 +1006,7 @@ th {
     float: right;
     margin-top: 4px; }
   .personalcabinet__btn {
-    background: url("../img/btn_green.png") left top no-repeat;
+    background: url("../img/sprites_btn.png") left top no-repeat;
     width: 115px;
     height: 34px;
     color: white;
